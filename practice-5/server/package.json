@@ -1,0 +1,14 @@
+{
+  "name": "products-store-api-swagger",
+  "version": "1.0.0",
+  "description": "API интернет-магазина с документацией Swagger (Практика 5)",
+  "main": "app.js",
+  "scripts": { "start": "node app.js" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "nanoid": "^3.3.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}

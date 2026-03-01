@@ -1,0 +1,8 @@
+{
+  "name": "practice-5",
+  "private": true,
+  "description": "Практика 5 — сервер в папке server/",
+  "scripts": {
+    "start": "npm run start --prefix server"
+  }
+}
