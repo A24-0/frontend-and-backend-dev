@@ -1,0 +1,19 @@
+{
+  "name": "practice-9-cookies-cache",
+  "version": "1.0.0",
+  "description": "Практика 9: Cookie (HttpOnly, Secure, SameSite), кэш токена",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "nanoid": "^3.3.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
