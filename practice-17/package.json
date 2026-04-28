@@ -1,0 +1,17 @@
+{
+  "name": "practice-17",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "vapid": "npx web-push generate-vapid-keys"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1",
+    "web-push": "^3.6.7"
+  }
+}
