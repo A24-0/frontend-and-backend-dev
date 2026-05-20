@@ -1,0 +1,14 @@
+{
+  "name": "practice-27",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "producer": "node producer.js",
+    "worker": "node worker.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "express": "^4.21.2"
+  }
+}
